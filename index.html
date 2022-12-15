@@ -4,123 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
-    <link rel="stylesheet" type="text/css" href="style.css">   
+    <title>cv</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">   
 </head>
+
 <body>
-    <!--главный контейнер-->
-   <div class="wrapper">
-       <aside class="sadebar">
-           <img class="my-foto" src="photo.jpg" alt="My photo">
-           <!--блок с контактами-->
-           <div class="contacts-conteiner">
-              <h3 class="contacts-title">Contacts</h3> 
-              <div>
-                <span class="contacts-link-type">phone:</span>
-                <a class="contacts-link" href="tel:&nbsp;38&nbsp;095&nbsp;754&nbsp;01&nbsp;48">+38 095 754 01 48</a>
-              </div>
-              <div>
-                <span class="contacts-link-type">e-mail:</span>
-                <a class="contacts-link" href="mailto:KrasHelqwq1313@protonmail.com">KrasHelqwq1313@protonmail.com</a>
-              </div>
-              <div>
-                <span class="contacts-link-type">GitHub:</span>
-                <a class="contacts-link" href="https://github.com/helena-qw">helena-qw</a>
-              </div>
-              <div>
-                <span class="contacts-link-type">Telegram:</span>
-                <a class="contacts-link" href="https://t.me/KrassHel">@KrassHel</a>
-              </div>
-           </div>
-           <!--технические навыки-->
-           <div class="tech-skills-conteiner">
-               <h3 class="tech-skills-title">Tech Skills</h3>
-               <ul class="ts1">
-                   <li><span>windows applications: Word, Excel, PowerPoint</span></li>
-                   <li><span>HTML5</span></li>
-                   <li><span>CSS3</span></li>
-                   <li><span>Git/GitHub</span></li>
-                   <li><span>JavaScript</span></li>
-                   <li><span>Bootstrap</span></li>
-                   <li><span>Canva</span></li>
-                   <li><span>languages: Ukrainian, Russian (fluent), English (basic)</span></li>   
-               </ul>
-           </div>
-           <!--Личностные качества-->
-           <div class="soft-skills-conteiner">
-               <h3 class="soft-skills-title">Soft Skills</h3>
-               <ul class="ts2">
-                   <li><span>Organizational skills</span></li>
-                   <li><span>Punctuality, independence</span></li>
-                   <li><span>Vision of the end result</span></li>
-                   <li><span>Team work</span></li>
-               </ul>
-           </div>
-       </aside>
-       <!--контейнер с информацией обо мне-->
-       <div class="about-my-conteiner">   
-           <div class="info-container">
-                <h2 class="profession">Front-End Developer</h2>
-                <h1 class="name">Olena Krasovska</h1>
-                <h3 class="about-my-title">Brief information about yourself</h3>
-                <p class="description">«In order to get what you never had, you need to do 
+    <header class = "header">
+        <div class= "container">
+        <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Tech Skills</a></li>
+          <li class="nav-item"><a href="#Pskills" class="nav-link">Personal Skills</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#work" class="nav-link">Work experience</a></li>
+        </ul>
+        </nav>
+        </div>
+   </header> 
+
+   <main class = "main">
+        <div class= "container main-container">
+        <section class="section centr-element">
+            <img id="MyPhoto" src="assets/photo.jpg" alt="My photo"></section>
+        <section class="section centr-element">
+            <h1 class="section-title2">Olena Krasovska</h1>
+            <p class="ts2">Front-End Developer</p></section>
+        <section class="section" id="contacts">
+            <h3 class="section-title">Contacts</h3>
+            <div class="ts1">
+                <p>phone: <a href="tel:&nbsp;38&nbsp;095&nbsp;754&nbsp;01&nbsp;48">
+                  +38 095 754 01 48</a></p>
+                <p>e-mail: <a href="mailto:helena.qw@ukr.net">helena.qw@ukr.net</a></p>
+                <p>Telegram: <a href="https://t.me/KrassHel">@KrassHel</a></p>
+            </div></section>
+        <section class="section" id="summary">
+            <h3 class="section-title">Brief information about yourself</h3>
+            <div class="ts1">
+            <p>«In order to get what you never had, you need to do 
                 what you never did». The desire to improve my professional level pushes 
                 me to constant self-development and self-improvement.</p>
-                <p class="description">I am a specialist in the field of public management, 
+            <p>I am a specialist in the field of public management, 
                 looking for an opportunity to work in IT-sphere. I want to do interesting 
                 work for me.</p>
-            </div>
-            <!--блок с проектами-->
-            <div class="prodjects-conteiner">
-                <h3 class="about-my-title">Projects</h3>
-                <ol class="projects1">
-                    <li><a href="https://fluffy-nougat-4a95c3.netlify.app">Project</a>
-                    <span><b>, that I created with the help of a mentor.</b></span> 
-                    </li>
-                    <li><span><b>I had experience working on a </b></span>
-                    <a href="https://jovial-baklava-74f868.netlify.app">project</a><span><b> in a team.</b></span> 
-                    </li>
-                </ol>
-            </div>       
-            <!--контейнер: образование и опыт работы-->
-            <div class="prodjects-conteiner">
-               <h3 class="about-my-title">Education and work experience</h3>
-                <!--conteiner 1-->
-                <div>
-                    <h4 class="profession1">Basic programming skills</h4>
-                    <span class="profession2">studying from 2020 - present 
-                    <span class="profi2">|</span> Ukraine</span>
-                    <ul class="profession3">
-                        <li>Сodifun online platform, USAID IT Nation program</li>
-                        <li>RS APP online platform, RS School</li>
-                    </ul>
-                </div>
-                <!--conteiner 2-->
-                <div>
-                    <h4 class="profession1">Public administration specialist</h4>
-                    <span class="profession2">2010 - 2022 
-                    <span class="profi2">|</span> Ukraine</span>
-                    <ul class="profession3">
-                        <li>European Academy Berlin AGREE, Germany, 2017</li>
-                        <li>Government body</li>
-                        <li>Analysis of the state, development of analytical 
-                        materials, comprehensive programs, proposals.</li>
-                    </ul>
-                </div>
-
-                <!--conteiner 3-->
-                <div>
-                    <h4 class="profession1">Master of Finance</h4>
-                    <span class="profession2">2004 - 2010 
-                    <span class="profi2">|</span> Ukraine</span>
-                    <ul class="profession3">
-                        <li>Donbass State Technical University, 2011</li>
-                        <li>Local government</li>
-                        <li>Analytics, analysis, generalization, document development</li>
-                    </ul>
-                </div>
-            </div>
+            </div></section>
+        <section class="section" id="skills">
+            <h3 class="section-title">Tech Skills</h3>
+            <ul class="ts1">
+                <li><span>windows applications: Word, Excel, PowerPoint</span></li>
+                <li><span>HTML5</span></li>
+                <li><span>CSS3</span></li>
+                <li><span>Git/GitHub</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>Bootstrap</span></li>
+                <li><span>Canva</span></li>
+                <li><span>languages: Ukrainian, Russian (fluent), English (basic)</span></li>   
+            </ul></section>
+        <section class="section" id="Pskills">
+            <h3 class="section-title">Personal Skills</h3>
+            <ul class="ts1">
+                <li><span>Organizational skills</span></li>
+                <li><span>Punctuality, independence</span></li>
+                <li><span>Vision of the end result</span></li>
+                <li><span>Team work</span></li>
+            </ul></section>
+        <section class="section" id="courses">
+            <h3 class="section-title">Courses</h3>
+            <ul class="ts1">
+                <li>Сodifun online platform, USAID IT Nation program</li>
+                <li>RS APP online platform, RS School</li>
+            </ul>
+        </section>
+        <section class="section" id="projects">
+            <h3 class="section-title">Projects</h3>
+            <ol class="ts1">
+                <li><a href="https://fluffy-nougat-4a95c3.netlify.app">Project</a>
+                <span><b>, that I created with the help of a mentor.</b></span></li>
+                <li><span><b>I had experience working on a </b></span>
+                <a href="https://jovial-baklava-74f868.netlify.app">project</a>
+                <span><b> in a team.</b></span></li>
+            </ol></section>
+        <section class="section" id="education">
+            <h3 class="section-title">Education</h3>    
+            <h4 class="profession">Master of Finance</h4> 
+            <ul class="ts1">
+                <li>Donbass State Technical University, 2011</li>
+                <li>European Academy Berlin AGREE, Germany, 2017</li>
+            </ul></section>
+        <section class="section" id="work">
+            <h3 class="section-title">Work experience</h3>    
+            <h4 class="profession">Public administration specialist<span class="profi"> | </span>
+            2004 - 2022<span class="profi"> | </span>Ukraine</h4> 
+            <ul class="ts1">
+                <li>Government body</li>
+                <li>Analysis of the state, development of analytical 
+                materials, comprehensive programs, proposals.</li>
+            </ul></section>
+        </div>     
+    </main>
+    <footer class = "footer">
+        <div class= "container main-container">
+        <section class="section">   
+            <p>2022<span class="profi"> | </span>GitHub: <a href="https://github.com/helena-qw">
+            helena-qw</a></p></section>
+        <section class="section" >       
+            <p><a href="https://rs.school/js/"><img id="rss" src="assets/photoRS.PNG" 
+            alt="RS photo"></a></p></section>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
